@@ -1,0 +1,141 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.bg-grey{
+    background-color: rgb(44, 43, 43);
+    padding: 12px 30px;
+}
+.navbar-inverse .navbar-nav>.active>a{
+    background-color: transparent;
+	border-left: 1.5px solid white;
+}
+.navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: transparent;
+	color:white;
+}
+.navbar-inverse .navbar-toggle {
+border: none;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+    background-color: transparent;
+}
+.section_1{
+    height: 70vh;
+}
+.carousel-indicators li{
+    width: 25px;
+    height: 4px;
+}
+.carousel-indicators li.active{
+    width: 25px;
+    height: 4px;
+}
+.carousel-caption{
+    top:20vh;
+}
+.section_2{
+    padding: 25px 80px;
+}
+.icon{
+    font-size: 25px;
+}
+.img-laptop{
+    height: 350px;
+    width: 550px;
+}
+.lorem{
+    padding-left: 100px;
+    margin-top: 72px;
+}
+.lorem p{
+    font-size: 15px;
+}
+.lorem button{
+    border: 1px solid red;
+    color: red;
+    background-color: transparent;
+}
+.lights-bg-img{
+    background-image: url(lights.jpg);
+    background-attachment: fixed;
+    background-size:100%;
+}
+
+.white-bg{
+    background-color: white;
+}
+.transparent-bg{
+    padding: 30px;
+    color: white;
+}
+.overlay-bg{
+    background-color: rgba(32, 32, 31,0.9);
+    height: 100%;
+    color: white;
+}
+.play{
+    height: 70px;
+    font-size: 25px;
+}
+.media-img{
+    background-image: url("media.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.padding{
+padding: 25px 0;
+}
+.margin{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.text-white{
+    color: white;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+
+@media screen and (max-width:768px){
+    .lorem{
+    padding-left: 24px;
+    margin-top: 8px;
+}
+.img-laptop{
+    height: 252px;
+    width: 343px;
+}
+.tab-768-row{
+width: 100%;
+}
+}
+@media screen and (max-width:425px){
+.section_1{
+    height: 50vh;
+}
+.hidden-1{
+    display: none;
+}
+.inline{
+    display:inline;   
+}
+.section_2{
+    padding: 25px;
+}
+.padd{
+    padding: 5px;
+}
+.form-end{
+    padding: 10px 15px;
+}
+.btn-center{
+margin-left: 155px;
+}
+}
+
+
+
